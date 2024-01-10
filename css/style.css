@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* menu */
+
+#menu {
+    background-color:black;
+    height: 100vh;
+}
+
+#menu .box{
+    width: 65px;
+    height: 60px;
+    background-color:rgb(208, 255, 0);
+    position:absolute;
+    right:0;
+    cursor:pointer;
+    box-shadow: 0px 0px 2px 2px white;
+    
+}
+
+#menu .menu-list{
+    width:0px;
+    height: 100vh;
+    background-color:wheat;
+    transition:0.5s;
+}
+
+#menu .menu-list.active{
+    width: 300px;
+}
+
+/* menu */
+
+/* counter */
+
+#counter{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+#counter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    justify-content: center;
+}
+
+#counter .container button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow:2px 4px 4px black;
+    border: none;
+}
+
+#counter .container input{
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:2px 4px 4px black;
+    border: none;
+}
+
+/* counter */
+
+/* range */
+#range{
+    background-color:brown;
+    height: 100vh;
+}
+
+#range .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    justify-content: center;
+
+}
+
+#range .container .range-card{
+    text-align: center;
+}
+
+#range .container .range-result{
+    background-color: black;
+    color:white;
+}
+
+/* range */
+
+/* random color */
+
+#random{
+    background-color:rgb(165, 163, 42);
+    height: 100vh;
+}
+
+#random .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    justify-content: center;
+}
+
+#random .container button{
+    padding: 15px 30px;
+    box-shadow:2px 4px 4px black;
+    border: none;
+}
+
+/* random color */
+
+/* image display */
+
+#imagedisplay{
+    background-color:rgba(42, 151, 165, 0.445);
+    height: 100vh;
+}
+
+#imagedisplay .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    justify-content: center;
+}
+
+#imagedisplay .container .imagefile{
+display: none;
+}
+
+/* image display */
